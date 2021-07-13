@@ -1,0 +1,43 @@
+.nametag {
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    background: red;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+.hello {
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.my-name-is{
+    font-size: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    height: 85px; 
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
