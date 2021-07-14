@@ -41,3 +41,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.input {
+    border-radius: 20px;
+}
+
+.button {
+    background-color:lightcoral;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 20px;
+}
