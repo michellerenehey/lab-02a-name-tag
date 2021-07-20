@@ -1,16 +1,31 @@
-const buttonEl = document.getElementById ('go-button'); 
-    console.log(buttonEl);
-const inputEl = document.getElementById('name-input');
-    console.log(inputEl);
-    console.log(inputEl.value);
-const headerEl = document.getElementById('white-space');
-    console.log(headerEl);
-const nametagEl = document.getElementById('nametag');
-    console.log(headerEl);
+const redButtonEl = document.getElementById ('red-button'); 
+const greenButtonEl = document.getElementById ('green-button'); 
+const blueButtonEl = document.getElementById ('blue-button'); 
+const yellowButtonEl = document.getElementById ('yellow-button'); 
 
-buttonEl.addEventListener('click', () => {
+
+const inputEl = document.getElementById('name-input');
+const headerEl = document.getElementById('white-space');
+const nametagEl = document.getElementById('nametag');
+
+redButtonEl.addEventListener('click', () => {
+    headerEl.textContent = inputEl.value;
+    nametagEl.style.backgroundColor = "red";
+    });
+
+greenButtonEl.addEventListener('click', () => {
     headerEl.textContent = inputEl.value;
     nametagEl.style.backgroundColor = "green";
+    });
+
+blueButtonEl.addEventListener('click', () => {
+    headerEl.textContent = inputEl.value;
     nametagEl.style.backgroundColor = "blue";
+    });
+
+yellowButtonEl.addEventListener('click', () => {
+    headerEl.textContent = inputEl.value;
     nametagEl.style.backgroundColor = "yellow";
     });
+  
+

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main class = "page">
     <div id="nametag" class ="nametag">
         <header>
             <div class="hello">
@@ -19,8 +20,17 @@
             <div class="name" id="white-space"></div>
         </header>
     </div>
-    <input class = "input" id="name-input" />
-    <button class = "button" id="go-button">Click here to update your name!</button>
+    <br>
+    <input class = "input" id="name-input" placeholder="enter name here"/>
+    <br>
+    <div class = "buttons">
+        <button class = "button" id="red-button">Click here for a <span class="red">red</span> nametag!</button>
+        <button class = "button" id="green-button">Click here for a <span class="green">green</span> nametag!</button>
+        <button class = "button" id="blue-button">Click here for a <span class="blue">blue</span> nametag!</button>
+        <button class = "button" id="yellow-button">Click here for <span class="yellow">yellow</span> nametag!</button>
+    </div>
+    </main>
+    
     <script type="module" src="./app.js"></script>
 
 </body>

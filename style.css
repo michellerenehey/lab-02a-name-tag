@@ -1,8 +1,14 @@
+.page {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color:navajowhite;
+}
 .nametag {
     border-radius: 20px;
     width: 400px;
     height: 250px;
-    background: red;
+    background: black;
     color: white;
     flex-direction: column;
     display: flex;
@@ -44,12 +50,38 @@
 
 .input {
     border-radius: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.buttons {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 .button {
-    background-color:lightcoral;
-    color: white;
+    width: 400px; 
+    background-color:lightgrey;
+    color: black;
     font-weight: bold;
-    height: 30px;
+    height: 50px;
     border-radius: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
 }
